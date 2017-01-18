@@ -12,6 +12,11 @@ left(90);
 right(45);
 forward(25);
 left(270);
+forward(25);
+left(45);
+forward(20);
+left(180);
+forward(40)
 stamp();
 
 
