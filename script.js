@@ -1,24 +1,63 @@
 /*global TinyTurtle*/
 /*global forward*/
-/*global stamp*/
-/*global left*/
 /*global right*/
-/*global down*/
-TinyTurtle.apply(window); 
+/*global stamp*/
+TinyTurtle.apply(window);
+function house(){
+forward(20);
+right(67);
+forward(28);
+right(45);
+forward(28);
+right(67);
 forward(20);
 right(90);
+forward(52);
+right(90);
 forward(20);
-left(90);
-right(45);
-forward(25);
-left(270);
-forward(25);
-left(45);
-forward(20);
-left(180);
-forward(40)
+right(90);
+forward(52);
 stamp();
-
+}
+function square(){
+forward(38);
+right(90);
+forward(38);
+right(90);
+forward(38);
+right(90);
+forward(38);
+}
+function triangle(){
+    
+}
+function rectangle(){
+forward(38);
+right(90);
+forward(70);
+right(90);
+forward(38);
+right(90);
+forward(70);
+}
+function pentagon(){
+forward(20);
+right(56);
+forward(28);
+right(45);
+forward(28);
+right(67);
+forward(20);
+right(90);
+forward(52);
+right(90);
+forward(20);
+stamp();
+}
+house();
+square();
+rectangle();
+pentagon();
 
 
 
