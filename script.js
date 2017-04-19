@@ -20,14 +20,21 @@ forward(52);
 stamp();
 }
 function square(){
-forward(38);
-right(90);
-forward(38);
-right(90);
-forward(38);
-right(90);
-forward(38);
+    for(var i =0; i<4; i=i+1){
+        forward(50);
+        right(90);
+        
 }
+}
+
+function fractal(){
+    for(var r =6; r<40; r=r+1){
+        right(40);
+        square();
+        
+}
+}
+
 function triangle(){
     
 }
@@ -45,7 +52,7 @@ forward(20);
 right(56);
 forward(28);
 right(45);
-forward(28);
+forward();
 right(67);
 forward(20);
 right(90);
@@ -54,11 +61,19 @@ right(90);
 forward(20);
 stamp();
 }
-house();
-square();
-rectangle();
-pentagon();
-
-
+function hexagon(){
+   for(var t=0; t<6; t=t+1){
+       forward(30);
+       right(60);
+   }
+}
+hexagon();
+function fractal2(){
+    for(var f=0; f<40;f=f+1){
+        right(20);
+        hexagon();
+    }
+}
+fractal2();
 
 
